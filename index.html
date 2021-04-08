@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home | Bootstrap</title>
+	<!-- Bootstrap v4.5.3 CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<!-- Fontawesome v4.7.0 CSS -->
+	<link rel="stylesheet" href="assets/icon/css/font-awesome.min.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<style>
+		.imgsize{
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow sticky-top">
+	<a href="#" class="nabbar-brand">
+		<img src="assets/img/logo.png" class="imgsize" alt="">
+	</a>
+	<a href="#navBtn" role="button" class="navbar-toggler" data-toggle="collapse">
+		<span class="navbar-toggler-icon"></span>
+	</a>
+	<div class="collapse navbar-collapse" id="navBtn">
+		<ul class="navbar-nav ml-auto">
+			<li class="nav-item active"><a href="#" class="nav-link font-weight-bold">Home</a></li>
+			<li class="nav-item"><a href="#" class="nav-link font-weight-bold">Services</a></li>
+			<li class="nav-item"><a href="#" class="nav-link font-weight-bold">Shop</a></li>
+			<li class="nav-item"><a href="#" class="nav-link font-weight-bold">About Us</a></li>
+			<li class="nav-item"><a href="#" class="nav-link font-weight-bold">Contract Us</a></li>
+		</ul>
+	</div>
+</nav>
+<div class="bg-dark">
+	<div class="container text-center text-light">
+		<h1>Contract Us</h1>
+		<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil consequatur repellat rerum. Eligendi, omnis. Minus unde ipsa mollitia suscipit quisquam iusto facilis maxime repellendus incidunt a delectus ratione sint corrupti aliquid nemo eius voluptatem saepe, pariatur officiis eos est. Similique consequatur commodi eaque neque minima, ipsam alias possimus perspiciatis esse.</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-4 my-2">
+				<div class="card">
+					<div class="card-body">
+						<h1 class="text-center"><i class="fa fa-home" aria-hidden="true"></i></h1>
+						<p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique id nihil consequatur dolor blanditiis excepturi,</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 my-2">
+				<div class="card">
+					<div class="card-body">
+						<h1 class="text-center"><i class="fa fa-phone" aria-hidden="true"></i></h1>
+						<p class="text-center">
+						+8801571158109 <br>
+						+8801402227928 <br>
+						+8801859659952
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-4 my-2">
+				<div class="card">
+					<div class="card-body">
+						<h1 class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i></h1>
+						<p class="text-center">
+						mail.muhammadit@gmail.com <br>
+						mail.muhammadalamin@gmail.com <br>
+						cmd.mdalamin@gmail.com
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 py-5">
+				<form action="#">
+					<div class="card">
+						<div class="card-body">
+							<div class="form-group">
+								<label for="username">Name <span class="text-danger">*</span></label>
+								<input type="text" id="username" name="username" class="form-control" required placeholder="Enter your username">
+							</div>
+							<div class="form-group">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<input type="text" id="email" name="email" class="form-control" required placeholder="Enter your email">
+							</div>
+							<div class="form-group">
+								<label for="subject">Subject <span class="text-danger">*</span></label>
+								<input type="text" id="subject" name="subject" class="form-control" required placeholder="Enter your subject">
+							</div>
+							<div class="form-group">
+								<label for="country">Country <span class="text-danger">*</span></label>
+								<select class="form-control" name="country" id="country">
+									<option value="">Bangladesh</option>
+									<option value="">India</option>
+									<option value="">Pakistan</option>
+								</select>
+							</div>
+							<div class="form-group">
+								<label for="msg">Massage</label>
+								<textarea name="" id="msg" cols="30" rows="5" class="form-control" placeholder="Enter your massage"></textarea>
+							</div>
+							<div class="text-center">
+								<button class="btn btn-success" type="submit">Send</button>
+								<button class="btn btn-danger" type="submit">Clear</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-md-6 py-5">
+				<div class="card">
+					<div class="card-body">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3648.2742580524937!2d90.2731246!3d23.8798916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755e99517c80e6d%3A0xe59c344e15432128!2sSavar%20Dairy%20Farm!5e0!3m2!1sen!2sbd!4v1617641096414!5m2!1sen!2sbd" width="100%" height="557" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+	<!-- Jquery v3.5.1 JS -->
+	<script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+	<!-- Popper JS -->
+	<script src="assets/js/popper.min.js"></script>
+	<!-- Bootstrap v4.5.3 JS -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Main JS -->
+	<script src="assets/js/main.js"></script>
+</body>
+</html>
